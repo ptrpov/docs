@@ -73,3 +73,5 @@ To learn about semantic versioning, click [here](https://docs.npmjs.com/getting-
 To learn more about tags, click [here](https://docs.npmjs.com/getting-started/using-tags).
 
 To learn more about `package.json` files, click [here](https://docs.npmjs.com/getting-started/using-a-package.json). 
+
+To learn more about naming, including how npm protects you against typosquat confusion, click [here](https://gist.github.com/ashleygwilliams/e466c1e9fd3be42545da511239edd554)

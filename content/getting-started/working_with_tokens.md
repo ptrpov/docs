@@ -143,6 +143,6 @@ The following screen shot demonstrates these steps:
 
 ![npmtokenrevokeshort](/images/npm-token-revoke-shorter.png)
 
-*Note*: All tokens shown in screen illustrations have been revoked. 
+*Note: All tokens shown in screen illustrations have been revoked.* 
 
- 
+*Note: In certain cases, there may be a delay of up to an hour before a token is successfully revoked. npm is currently working to make revocation occur immediately in all cases.*  
