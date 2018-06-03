@@ -1,56 +1,81 @@
-<!--
-title: 01 - What is npm?
+<!-- title: 01 - What is npm?
 featured: true
 -->
-
 # What is npm?
 
-npm is the package manager for JavaScript. It's also the world's largest software registry. There are over 600,000 packages of JavaScript code available to download, with approximately 3 billion downolads per week. npm makes it easy for JavaScript developers to reuse code other developers have shared. Adapt it to new applications, or incorporate it as is. When someone revises their code, you can easily update your application to incorporate the newly improved code.
+npm opens up an entire world of JavaScript talent for you and your team. It's the world's largest software registry, with approximately 3 billion downloads per week. The registry contains over 600,000 _packages_ (building blocks of code). Open-source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well. 
+
+Here is a quick introduction to npm:
 
 <iframe width="670" height="480" src="https://www.youtube.com/embed/x03fjb2VlGY" frameborder="0" allowfullscreen></iframe>
-  
-Developers create a small building block of code that solves one problem well, then "package" the code into a directory that follows npm guidelines. A typical application, such as a website, will consist of dozens or hundreds of small packages. Its developer uses the packages to compose larger custom solutions.
-  
-npm makes it possible for your team to draw on the expertise of people who have focused on a particular problem areas, whether in your organization, or outside of it. Use npm to help your team work together better, sharing developer talent across projects. Use npm to manage multiple versions of code.
-  
-To find packages, browse the npm [website](https://www.npmjs.com). 
 
-While browsing, you'll find lots of Node modules, which makes sense, since npm started as the Node package manager. Node modules can be used on the server side. There are also many packages which add commands for you to use in the command line. And there are an ever-increasing amount of packages that can be used on the front end. (To understand the difference between node modules and packages, click [here](https://docs.npmjs.com/getting-started/packages)).
- 
-npm consists of three distinct pieces: 
- 
+npm consists of three distinct components:
+
 *  the website
-*  the registry
 *  the Command Line Interface (CLI)
+*  the registry
 
-The [*website*](https://npmjs.com) is the primary way developers discover packages, set up profiles, and manage other aspects of their npm experience.
+Use the [*website*](https://npmjs.com) to discover packages, set up profiles, and manage other aspects of your npm experience. For example, you can set up [Orgs](https://www.npmjs.com/features) (organizations) to manage access to public or private packages. 
 
-The *registry* is a large database of information about packages.
+The [*CLI*](https://docs.npmjs.com/cli/npm) runs from a terminal. This is how most developers interact with npm. 
 
-The [*CLI*](https://docs.npmjs.com/cli/npm), run from a terminal, is how developers publish their packages on the registry or download packages they wish to install. 
- 
-## Example: Finding a Package
+The [*registry*](https://docs.npmjs.com/misc/registry) is a large public database of JavaScript software and the meta-information surrounding it. 
 
-For example, suppose you wanted to use bar codes (QR codes) in your application. Rather than spend weeks figuring out how to do this, why not see if someone has posted a package that creates QR codes? Start by entering a value in the search bar:
 
-![blanksearchbar](/images/search-bar-qr-scanner-what-is-npm.png)
+## Use npm to . . . 
 
-Related options will appear:
+* Adapt packages of code to your apps, or incorporate packages as they are.
+* Download standalone tools you can use right away.
+* Run packages without downloading using [npx](https://www.npmjs.com/package/npx).
+* Share code with any npm user, any where.
+* Restrict code to specific developers.
+* Form Orgs (organizations) to coordinate package maintenance, coding, and developers.  
+* Form virtual teams by using Orgs.
+* Manage multiple versions of code and code dependencies.
+* Update applications easily when underlying code is updated.
+* Discover multiple ways to solve the same puzzle. 
+* Find other developers who are working on similar problems and projects.   
 
-![choicessearchbar](/images/search-results-qr-what-is-npm.png)
+These are just a few examples of ways developers use npm. If you'd like to add a bullet point, comment [here](https://github.com/npm/docs/issues/944).   
 
-Or, if you click, you will have a chance to filter the possibilities even more:
+## Where do I Start?
 
-![filtersearchbar](/images/search-qr-what-is-npm.png)
+Now that you know what npm is, and a bit about how to use it, it's time to get started. 
 
-When you choose a package to explore, more information appears. This information is written by the package author(s) so details vary. 
+### Your First Package Page
 
-![searchresults](/images/page-results-qr-scanner-what-is-npm.png)
+First, you create an npm account, which is explained in the next chapter. You will then have you own page on npmjs.com, which will be http://www.npmjs.com/~*yourusername*. 
 
-Now, you can read the developer's instructions to discover how to use this package. 
+<img src="/images/first-package-page.png" style="border: 1px solid gray;">
 
-## Next Steps
+<!--<<img src="first-package-page.png" style="border: 1px solid gray;">-->
 
-Now that you know what npm is, it's time to get started.  [Install npm](https://docs.npmjs.com/getting-started/installing-node). We look forward to seeing what you will create! 
+As you publish packages, they will appear on your page. You can add organizations to invite others to work with you. 
 
-To learn more about npm as a product, new features on the way, and interesting uses of npm, sign up for our newsletter, or read newsletter archives, at [npm-weekly](https://www.npmjs.com/npm-weekly)
+After you set up an npm account, the next step is to use the commmand line interface (CLI) to [install npm](https://docs.npmjs.com/getting-started/installing-node). We look forward to seeing what you create!
+
+## How do I share packages or collaborate with others?  
+
+If you choose to share your packages publicly, there is no cost. To use and share private packages, you need to upgrade your account. To share with others, create organizations, called **npm Orgs**,  and invite others to work with you, privately (for a fee) or publicly (for free). Or you can sign up for a custom, private type of npm for your company, called **npmE** for npm Enterprise.
+
+## Learn more about npm Orgs and npmE
+
+[npm Orgs](https://www.npmjs.com/features) provide tools for managing both public and private packages. Granting permissions is easy, and configuration is simplified.
+
+If you would prefer to have your own private registry, so that you can develop packages internally that are not shared publicly,  consider [npm Enterprise](https://www.npmjs.com/enterprise).
+
+## Learn More
+
+To learn more about npm as a product, new features on the way, and interesting uses of npm, sign up for our newsletter at [npm-weekly](https://www.npmjs.com/npm-weekly), and be sure to follow @npmjs on twitter.
+
+To explore additional features and options, click [here](https://www.npmjs.com/pricing).
+
+To learn about tools to manage multiple packages and collaborators, see [npm Orgs](https://www.npmjs.com/docs/orgs).
+
+To learn more about npm Enterprise, click [here](https://npme.npmjs.com/docs).  
+
+For mentoring, tutorials, and learning, vist [node school](https://nodeschool.io). Consider attending or hosting a nodeschool event (usually free!) at a site near you, or use the self-help tools you can find on the site. 
+
+### CLI Reference Doc / Online Help
+
+While relevant CLI commands are covered throughout this user documentation, the CLI includes command line help, its own [documentation section, and instant help (man pages)](https://docs.npmjs.com/cli/help). When you click a doc about [any CLI command](https://docs.npmjs.com/cli/help-search), a list of all CLI commands appears in the left-hand side bar. You can also access the list of CLI commands by scrolling to CLI Commands on the [docs home page](https://docs.npmjs.com).

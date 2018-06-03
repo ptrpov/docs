@@ -15,7 +15,7 @@ If a project is going to be shared with others, it should start at `1.0.0`, (tho
 
 After this, changes should be handled as follows:
 
-![SemVerTable](/images/sem_ver_table.png)
+![SemVerTable](/images/semvertable.png)
 
 ## Semver for Consumers
 
@@ -28,6 +28,8 @@ If you were starting with a package 1.0.4, this is how you would specify the ran
 * Major releases: `*` or `x`
 
 ## Learn More
+
+For a great tool you can use to learn about how semver works with your favorite packages, see the [npm semver calculator](https://semver.npmjs.com).
 
 For more about using semantic versioning with package.json files, see [Chapter 5](https://docs.npmjs.com/getting-started/using-a-package.json#specifying-packages). 
 

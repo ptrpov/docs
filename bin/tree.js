@@ -37,7 +37,7 @@ emitter.on('file', function (filepath, stat) {
     filename: filepath.replace(/.*\/content\//, ''),
     modified: null,
     modifiedPretty: null,
-    edit_url: 'https://github.com/npm/npm/edit/master/doc/cli/npm-bugs.md',
+    edit_url: 'https://github.com/npm/npm/edit/latest/doc/cli/npm-bugs.md',
     content: fs.readFileSync(filepath, 'utf-8')
   }
 
@@ -83,7 +83,7 @@ emitter.on('file', function (filepath, stat) {
 
   // In what repository does this doc live?
   if (['cli', 'files', 'misc'].indexOf(page.section) > -1) {
-    page.edit_url = 'https://github.com/npm/npm/edit/master/doc/' + page.filename
+    page.edit_url = 'https://github.com/npm/npm/edit/latest/doc/' + page.filename
   } else if (page.section === 'policies') {
     page.edit_url = 'https://github.com/npm/policies/edit/master/' + path.basename(page.filename)
   } else if (page.section) {

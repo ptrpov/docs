@@ -8,5 +8,5 @@ featured: true
 Sometimes npm's cache gets confused. You can reset it using:
 
 ```
-npm cache clean
+npm cache clean --force
 ```

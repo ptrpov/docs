@@ -23,7 +23,7 @@ A `package.json` must have:
 - `"name"`
   - all lowercase
   - one word, no spaces
-  - dashes and underscores allowed
+  - hyphens and underscores allowed
 - `"version"`
   - in the form of `x.x.x`
   - follows [semver spec](https://docs.npmjs.com/getting-started/semantic-versioning)
@@ -208,6 +208,6 @@ To understand more about the power of package.json, see the video "Installing np
 
 To learn more about semantic versioning, see [Getting Started "Semver" page][1].
 
-[1]: docs.npmjs.com/getting-started/semantic-versioning
+[1]: https://docs.npmjs.com/getting-started/semantic-versioning
 [2]: https://opensource.org/licenses/ISC
 
